@@ -6,7 +6,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  public bannerHeight= (window.innerWidth * 370) / 1023;
+  public bannerHeight = (window.innerWidth * 370) / 1023;
   constructor() { }
 
   ngOnInit() {
