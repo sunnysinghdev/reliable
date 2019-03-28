@@ -1,13 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import 'variables.scss';
 .theme {
-    color: #830300;
-    background-color: #fff;
+    color: $fore-color !important;
+    background-color: $bg-color !important;
 }
 
 .theme-inverse {
-    color: #fff;
-    background-color: #830300 !important;
+    background-color: $fore-color !important;
+    color: $bg-color !important;
 }
 
 .theme-logo-font {

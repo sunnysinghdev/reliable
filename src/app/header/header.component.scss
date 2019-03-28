@@ -1,0 +1,10 @@
+@import "../../variables.scss";
+.bg-light {
+    background-color: $bg-color !important;
+    button {
+        background-color: $fore-color !important;
+    }
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $fore-color !important;
+}
