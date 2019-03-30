@@ -6,12 +6,29 @@
     //filter: blur(2px);
 }
 
-.bg-text {
+.bg-text_temp {
     background-color: rgb(0, 0, 0);
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/opacity/see-through */
     color: white;
+    font-weight: bold;
+    //border: 3px solid #f1f1f1;
+    //padding: 20px;
+    text-align: center;
+}
+@keyframes change {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+#img-animate {
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bg-text {
+    /* Black w/opacity/see-through */
+    color: darkslateblue;
     font-weight: bold;
     //border: 3px solid #f1f1f1;
     //padding: 20px;

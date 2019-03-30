@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { ServiceComponent } from './service/service.component';
 import { FormsModule } from '@angular/forms';
 import { KnowComponent } from './know/know.component';
+import { SlideShowComponent } from './slide-show/slide-show.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { KnowComponent } from './know/know.component';
     FooterComponent,
     HomeComponent,
     ServiceComponent,
-    KnowComponent
+    KnowComponent,
+    SlideShowComponent
   ],
   imports: [
     BrowserModule,

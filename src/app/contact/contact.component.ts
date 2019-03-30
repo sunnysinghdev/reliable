@@ -24,7 +24,7 @@ export class ContactComponent implements OnInit {
       to: "sunnysingh.vpcoe@gmail.com",
       subject: "Home Inspection Query",
       message: this.name + "("+this.phone+ ", "+this.email +")" + " - [ " + this.message +" ]",
-      cc:"Mritunjay <mritunjay15@gmail.com>"
+      cc:"Mritunjay <mritunjayk51@gmail.com>"
   };
   this.loader = true;
     this.http.post('https://mailwaala.herokuapp.com/sendmail', body)

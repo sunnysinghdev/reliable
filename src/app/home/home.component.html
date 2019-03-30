@@ -1,4 +1,4 @@
-<div class="container-fluid1 text-center" [style.height.px]="bannerHeight">
+<div class="container-fluid1 text-center" *ngIf="false" [style.height.px]="bannerHeight">
     <div class="banner" [style.height.px]="bannerHeight">
         <div class="bg-text center">
             <h1 class="theme-logo-font"><span style="font-size:58px;">R</span>ELIABLE</h1>
@@ -6,8 +6,57 @@
         </div>
     </div>
 </div>
+<div class="container-fluid">
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <!-- <img id="img-animate" src="../../assets/carousel (1).jpeg" style="max-width: 100%"> -->
+            <app-slide-show></app-slide-show>
+        </div>
+        <div class="col-sm-6 text-center">
+            <div
+                style="width: 100%; height: 100%; background-image: linear-gradient(to right bottom, white, lightgray);">
+                <div class="bg-text center">
+                    <img src="../../assets/logo2.jpg" style="width: 30%;">
+
+                    <h1><span style="font-size:1.2em;">R</span>ELIABLE</h1>
+                    <h3>HOME INSPECTION</h3>
+                    <p>We specialize in home inspection.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
 <br>
 <div class="container-fluid">
+    <div class="row strip">
+        <div class="col-sm-4">
+            <div class="part">
+                <div class="part-image"><span class="fa fa-flag"></span></div><br>
+                <h4>HIGHLY TRAINED STAFF</h4>
+                <p>At Reliable home inspection, we are Highly trained staffs. Our employees are the ambassadors of the
+                    company.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="part">
+                <div class="part-image"><span class="fa fa-trophy"></span></div><br>
+                <h4>Quality inspection tools</h4>
+                <p>To provide best services to our client in all facility services, we are using the quality tools.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="part">
+                <div class="part-image"><span class="fa fa-thumbs-up"></span></div><br>
+                <h4>FAST & EFFECTIVE SERVICE</h4>
+                <p>We always try to ensure the highest level of consumer delight, focused upon the effective delivery of
+                    services to them.</p>
+            </div>
+        </div>
+    </div>
+    <br>
     <div class="row">
         <div class="col-sm-6 text-center" style="margin:auto;max-width: 600px;">
             <div class="outer" style="">
@@ -35,7 +84,7 @@
                         that it can save you a lot of
                         time and money <br>that you would otherwise have to<br> spend in future amending <br>the issues.
                     </p>
-                    <a class="nav-link" [routerLink]="['/know']">Know more..</a>
+                    <a class="nav-link" [routerLink]="['/know']">KNOW MORE...</a>
                 </div>
             </div>
         </div>
@@ -44,31 +93,50 @@
         </div>
     </div>
     <br>
-    <div class="row strip">
-        <div class="col-sm-4">
-            <div class="part">
-                <div class="part-image"><span class="fa fa-flag"></span></div><br>
-                <h4>HIGHLY TRAINED STAFF</h4>
-                <p>At Reliable home inspection, we are Highly trained staffs. Our employees are the ambassadors of the
-                    company.</p>
+    <div class="row strip2">
+            <div class="col-sm-4">
+                <div class="part">
+                    <div class="part-image"><span class="fa fa-home"></span></div><br>
+                    <div class="part-content">
+                        <h4>Areas Inspected</h4>
+                        <p> Bedrooms | Bathrooms | Living | Dining Area | Alleys | Kitchens | Balconies | Lofts | Servants’ Quarters | Lobby Area | Attached Structure | Exterior (Stairs | Steps | Ramps | Walkways | Railings | Hand rails | Driveways, etc)</p>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="part">
+                    <div class="part-image"><span class="fa fa-angellist"></span></div><br>
+                    <div class="part-content">
+                        <h4>Systems & Components Inspected</h4>
+                        <p>Walls | Ceilings | Floors | Doors | Windows | Plumbing | Electrical | Stair steps 
+                                | Stair railing | Cabinets and countertops | Applicable Installed Appliances | Water Supply | Exhaust Systems | Air Conditioning Systems, etc.</p>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="part">
+                    <div class="part-image"><span class="fa fa-search"></span></div><br>
+                    <div class="part-content">
+                        <h4>All Properties Inspected</h4>
+                        <p>New/ Existing/ Old/ Heritage Homes, Office, Retails, Schools, Warehouse, Shopping Mall, Building, Bungalow etc. Reporting Parameters - Condition Details:Material types Installation & Finishing Operations & Functionality General safety</p>
+                    </div>
+    
+                </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="part">
-                <div class="part-image"><span class="fa fa-trophy"></span></div><br>
-                <h4>Quality inspection tools</h4>
-                <p>To provide best services to our client in all facility services, we are using the quality tools.</p>
-            </div>
+        <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="../../assets/home-inspection-coverage.jpg" style="max-width: 100%">
         </div>
-        <div class="col-sm-4">
-            <div class="part">
-                <div class="part-image"><span class="fa fa-thumbs-up"></span></div><br>
-                <h4>FAST & EFFECTIVE SERVICE</h4>
-                <p>We always try to ensure the highest level of consumer delight, focused upon the effective delivery of
-                    services to them.</p>
+        <div class="col-sm-6 text-center">
+                <img src="../../assets/lens.png" style="max-width: 10%">
+                <img src="../../assets/inspection-tools.jpg" style="max-width: 50%">
             </div>
-        </div>
     </div>
+
     <br>
 
     <div class="row strip2">
