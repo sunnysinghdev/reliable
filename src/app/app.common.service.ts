@@ -14,8 +14,8 @@ export class AppCommonService {
     getContents() {
         this.http.get('assets/contents.json').subscribe(
             res => {
-                console.log(res.text());
                 this.contents = JSON.parse(res.text());
+                console.log(res.text());
             }
         );
     }

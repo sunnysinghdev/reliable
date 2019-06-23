@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppCommonService } from './app.common.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -6,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'reliable';
+  constructor(public appService: AppCommonService) {}
 }

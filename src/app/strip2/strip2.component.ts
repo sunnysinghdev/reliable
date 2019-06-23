@@ -10,10 +10,15 @@ export class Strip2Component implements OnInit {
 
   contact: any = {};
   constructor(public appService: AppCommonService) {
-    this.contact = this.appService.contents.contact;
    }
 
   ngOnInit() {
+    setTimeout(() => {
+    this.contact = this.appService.contents.contact;
+    },
+    500
+    );
+
   }
 
 }
