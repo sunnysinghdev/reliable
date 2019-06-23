@@ -1,1 +1,24 @@
+<div style="padding: 10px;" *ngFor="let item of contents">
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>
+                {{item.heading}}
+
+            </h2>
+            <p>
+                {{getPara(item.paragraphs)}}
+
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <img [src]="getImage(item.image)" style="max-width: 100%">
+        </div>
+    </div>
+    <br>
+</div>
+<br>
+<br>
+<app-strip2></app-strip2>
+<br>
 <app-contact></app-contact>

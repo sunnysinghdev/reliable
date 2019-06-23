@@ -13,6 +13,8 @@ import { ServiceComponent } from './service/service.component';
 import { FormsModule } from '@angular/forms';
 import { KnowComponent } from './know/know.component';
 import { SlideShowComponent } from './slide-show/slide-show.component';
+import { AppCommonService } from './app.common.service';
+import { Strip2Component } from './strip2/strip2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +25,8 @@ import { SlideShowComponent } from './slide-show/slide-show.component';
     HomeComponent,
     ServiceComponent,
     KnowComponent,
-    SlideShowComponent
+    SlideShowComponent,
+    Strip2Component
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,9 @@ import { SlideShowComponent } from './slide-show/slide-show.component';
     HttpModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    AppCommonService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

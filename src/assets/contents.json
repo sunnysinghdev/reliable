@@ -1,0 +1,69 @@
+{
+    "home": {},
+    "service": {
+        "content": [{
+                "heading": "Areas Inspected:",
+                "paragraphs": [
+                    "Bedrooms | Bathrooms | Living | Dining Area | Alleys | Kitchens | Balconies | Lofts | Servants’ Quarters | Lobby Area | Attached Structure | Exterior (Stairs | Steps | Ramps | Walkways | Railings | Hand rails | Driveways, etc)"
+
+                ],
+                "image": "carousel (1).jpeg"
+            },
+            {
+                "heading": "Systems & Components Inspected:",
+                "paragraphs": [
+                    "Walls | Ceilings | Floors | Doors | Windows | Plumbing | Electrical | Stair steps | Stair railing | Cabinets and countertops | Applicable Installed Appliances | Water Supply | Exhaust Systems | Air Conditioning Systems, etc."
+
+                ],
+                "image": "carousel (5).jpeg"
+            },
+            {
+                "heading": "Reporting Parameters - Condition Details:",
+                "paragraphs": [
+                    "Material types Installation & Finishing Operations & Functionality General safety"
+
+                ],
+                "image": "carousel (6).jpeg"
+            },
+            {
+                "heading": "All Properties Inspected:",
+                "paragraphs": [
+                    "New/ Existing/ Old/ Heritage Homes, Office, Retails, Schools, Warehouse, Shopping Mall, Building, Bungalow etc."
+                ],
+                "image": "cover.jpg"
+            }
+        ]
+    },
+    "about": {
+        "content": [{
+                "heading": "What is Reliable Home Inspection?",
+                "paragraphs": [
+                    "Reliable Home Inspection integrates various dimensions of managing a residential",
+                    "complex such as managing finances, managing data (of owners, facilities, assets,",
+                    "documents etc.), managing day-to-day operations, and most importantly bringing the",
+                    "entire community together. Reliable Home Inspection is offered as a hosted solution",
+                    "with zero infrastructure setup by the society. Following are salient features:"
+                ],
+                "image": "carousel (1).jpeg"
+            },
+            {
+                "heading": "Who should use Reliable Home Inspection?",
+                "paragraphs": [
+                    "Reliable Home Inspection can be used by any one associated with a residential complex.",
+                    "Reliable Home Inspection has features which offer great value to the owners & tenants, the",
+                    "team maintaining the complex (managing committees, property management agencies, property",
+                    "developers), auditors and accountants. You can check out the details of our offerings in our",
+                    "features."
+                ],
+                "image": "carousel (2).jpeg"
+            }
+        ]
+    },
+    "contact": {
+        "phone": "09845982845",
+        "AddressLine1": "557, BHAGAVATI, 3RD FLOOR, 14TH MAIN",
+        "AddressLine2": " SECTOR 3 HSR LAYOUT, BENGALURU 560102",
+        "email": "mritunjayk51@gmail.com",
+        "website": "sunnysinghdev.com"
+    }
+}

@@ -1,48 +1,24 @@
-<div class="row">
-    <div class="col-sm-4 theme">
-        <div class="theme-card">
+<div style="padding: 10px;" *ngFor="let item of contents">
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
             <h2>
-                Areas Inspected:
-            </h2>
-            Bedrooms | Bathrooms | Living | Dining Area | Alleys | Kitchens | Balconies | Lofts | Servants’ Quarters | Lobby Area | Attached Structure | Exterior (Stairs | Steps | Ramps | Walkways | Railings | Hand rails | Driveways, etc)
-        </div>
-    </div>
-    <div class="col-sm-4 theme">
-        <div class="theme-card">
-            <h2>
-                Systems & Components Inspected:
-            </h2>
-            Walls | Ceilings | Floors | Doors | Windows | Plumbing | Electrical | Stair steps 
-            | Stair railing | Cabinets and countertops | Applicable Installed Appliances | Water Supply | Exhaust Systems | Air Conditioning Systems, etc.
-        </div>
-    </div>
-    <div class="col-sm-4 theme">
-        <div class="theme-card">
-            <h2>
-                Reporting Parameters - Condition Details:
+                {{item.heading}}
 
             </h2>
-            Material types Installation & Finishing Operations & Functionality General safety
+            <p>
+                {{getPara(item.paragraphs)}}
 
-
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <img [src]="getImage(item.image)" style="max-width: 100%">
         </div>
     </div>
-    <div class="col-sm-4 theme">
-        <div class="theme-card">
-            <h2>
-                All Properties Inspected
-            </h2>
-            New/ Existing/ Old/ Heritage Homes, Office, Retails, Schools, Warehouse, Shopping Mall, Building, Bungalow etc.
-        </div>
-    </div>
+    <br>
 </div>
+<br>
+<br>
+<app-strip2></app-strip2>
+<br>
 <app-contact></app-contact>
-<div class="row">
-
-</div>
-<div class="row">
-
-</div>
-<div class="row">
-
-</div>
